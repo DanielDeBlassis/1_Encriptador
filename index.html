@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Encriptador</title>
+    <link rel="shortcut icon" href="img/logo-pestania-2.png" />
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <!--Font Awesome-->
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+        integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+        crossorigin="anonymous"></script>
+</head>
+
+<body class="cuerpo">
+
+    <div class="contenedor-ppal">
+
+        <div class="contenedor-logo"><img src="img/Logo.svg" alt="Logo Alura"></div>
+
+        <div class="contenedor-lateral">
+            <div class="contenedor-munieco"><img src="img/Munieco.svg" alt="Figura persona con lupa"></div>
+            <div class="contenedor-texto-munieco">
+                <p id="texto-p1">Ningún mensaje fue encontrado</p>
+                <p id="texto-p2">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+        </div>
+
+        <form class="formulario">
+            <div class="contenedor-formulario">
+                <div class="contenedor-botones-textarea">
+                    <button id="copy" class="boton-copiar" type="button" title="Copiar"><a><i
+                                class="fas fa-copy"></i></a> Copiar</button>
+                    <button id="reset" class="boton-reset" type="reset" title="Borrar"><a><i
+                                class="fas fa-undo"></i></a> Borrar</button>
+                </div>
+                <textarea id="areaTexto" name="textoIngresado" class="textarea"
+                    placeholder="Ingrese el texto aquí"></textarea>
+            </div>
+
+            <div class="contenedor-aclaracion">
+                <p class="texto-advertencia"><i id="exclamacion" class="fa fa-exclamation-circle"
+                        aria-hidden="true"></i> Solo letras
+                    minúsculas y sin acentos</p>
+            </div>
+
+            <div class="contenedor-botones">
+                <button id="encriptar" class="boton encriptado" type="button">
+                    <p class="texto-boton-encriptado">Encriptar</p>
+                </button>
+                <button id="desencriptar" class="boton desencriptado" type="button">
+                    <p class="texto-boton-desencriptado">Desencriptar</p>
+                </button>
+            </div>
+
+        </form>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

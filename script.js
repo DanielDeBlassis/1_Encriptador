@@ -14,6 +14,22 @@ var botonCopiar = document.getElementById("copy");
 var botonBorrar = document.getElementById("reset");
 
 
+////////////VALIDACIÓN DEL TEXTAREA////////////
+//comprueba que solo sean ingresadas letras
+function soloLetras(event) {
+    tecla = (document.all) ? event.keyCode : event.which;
+
+    //Tecla de retroceso para borrar, siempre la permite
+    if (tecla == 8) {
+        return true;
+    }
+
+    //Solo se aceptan letras
+    patron = /[A-Za-z]/;
+    tecla_final = String.fromCharCode(tecla);
+    return patron.test(tecla_final);
+}
+
 ////////////ENCRIPTAR////////////
 encriptado.onclick = encriptar;
 //encripta texto

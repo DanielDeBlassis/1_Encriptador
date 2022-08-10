@@ -168,30 +168,27 @@ html {
 .textarea {
     /* Ingrese el texto aqui */
     cursor: auto;
-
     resize: none;
     border: none;
     overflow: auto;
     outline: none;
     /*quita el borde de la caja*/
-
     position: absolute;
     width: 577px;
     height: 600px;
     left: 240px;
     top: 168px;
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 150%;
     /* identical to box height, or 48px */
-
     background: #F3F5FC;
 
     /* Dark blue/dark-blue-300 */
     color: #0A3871;
+    /* text-transform: lowercase; */
 }
 
 .textarea::placeholder {

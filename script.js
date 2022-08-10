@@ -284,7 +284,7 @@ function cambiarPortugues() {
     var acercaDe = document.getElementById("info-dialog");
     acercaDe.innerHTML = `<div class="contenedor-close-info"><i onclick="closeWindow()" class="fas fa-window-close" id="close-info"></i></div>
     <div class="cont-text-dialog-info"><p class="t-dialog-info">Olá! Meu nome é Daniel De Blassis e criei este aplicativo que corresponde ao desafio nº 1 do programa Alura ONE.</p><br>
-    <p class="t-dialog-info"><a href="https://github.com/DanielDeBlassis" target="_blank"
+    <p class="t-dialog-info"><a href="https://github.com/DanielDeBlassis/1_Encriptador" target="_blank"
             rel="nofollow noreferrer noopener">Aqui</a> você pode encontrar o repositório do projeto.
     </p></div>`;
 

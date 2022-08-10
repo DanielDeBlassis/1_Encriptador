@@ -39,10 +39,9 @@ html {
     align-items: flex-start;
     padding: 0px;
     gap: 40px;
-
     position: absolute;
-    width: 120px;
-    height: 48px;
+    width: auto;
+    height: auto;
     left: 40px;
     top: 40px;
     transition: 1s;
@@ -493,12 +492,12 @@ html {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    padding: 24px;
+    padding: 10px;
     gap: 10px;
-    width: 120px;
-    height: 176px;
-    /* background: rgba(255, 255, 255, 0.24); */
-    /* box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.04); */
+    width: auto;
+    height: auto;
+    background: rgba(255, 255, 255, 0.24);
+    box-shadow: 0px 8px 24px rgb(0 0 0 / 5%);
     border-radius: 800px;
 
     /* Inside auto layout */
@@ -509,14 +508,14 @@ html {
 
 .menu-idioma-lista {
     display: flex;
-    text-align: center;
-    justify-content: center;
+    /* text-align: center; */
+    /* justify-content: center; */
     flex-direction: column;
-    align-items: flex-start;
-    padding: 16px;
+    align-items: center;
+    padding: 8px;
     gap: 39px;
-    width: 70px;
-    height: 130px;
+    width: auto;
+    height: auto;
 
     /* White */
     background: #FFFFFF;
@@ -529,26 +528,28 @@ html {
 }
 
 .opcion-idioma.espania {
-    width: 40px;
-    height: 40px;
+    width: auto;
+    height: auto;
     /* Inside auto layout */
     flex: none;
     order: 0;
     flex-grow: 0;
-    /* left: 33px; */
+    margin: 0;
+    padding: 8px;
     /* text-align: center; */
     /* justify-content: center; */
-    margin-left: 15px;
+    /* margin-left: 15px; */
 }
 
 .opcion-idioma.brazil {
-    width: 40px;
-    height: 40px;
+    width: auto;
+    height: auto;
     /* Inside auto layout */
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin-left: 15px;
+    margin: 0;
+    padding: 8px;
 }
 
 /*Menú 1--*/
@@ -556,30 +557,31 @@ html {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 24px;
+    padding: 10px;
     gap: 10px;
-    width: 70px;
-    height: 130px;
-    /* background: rgba(255, 255, 255, 0.24); */
-    /* box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.04); */
+    width: auto;
+    height: auto;
+    background: rgba(255, 255, 255, 0.24);
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.04);
     border-radius: 800px;
     /* Inside auto layout */
     flex: none;
     order: 1;
     flex-grow: 0;
+    margin-top: 100px;
 }
 
 .lista-menu {
     /* Auto layout */
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    text-align: center;
-    justify-content: center;
-    padding: 16px;
+    align-items: center;
+    /* text-align: center;
+    justify-content: center; */
+    padding: 8px;
     gap: 39px;
-    width: 72px;
-    height: 128px;
+    width: auto;
+    height: auto;
 
     /* White */
     background: #FFFFFF;
@@ -592,13 +594,14 @@ html {
 }
 
 .opcion1 {
-    width: 40px;
-    height: 40px;
-    /* Inside auto layout */
+    width: auto;
+    height: auto;
     flex: none;
     order: 0;
     flex-grow: 0;
     margin-left: 15px;
+    margin: 0;
+    padding: 8px;
 }
 
 #info {
@@ -624,13 +627,14 @@ html {
 }
 
 .opcion2 {
-    width: 40px;
-    height: 40px;
-    /* Inside auto layout */
+    width: auto;
+    height: auto;
     flex: none;
-    order: 1;
+    order: 0;
     flex-grow: 0;
     margin-left: 15px;
+    margin: 0;
+    padding: 8px;
 }
 
 
@@ -639,8 +643,8 @@ html {
     position: fixed;
     z-index: 1;
     background: rgba(128, 128, 128, 0.756);
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
     /* Black w/ opacity */
     top: 0;
     left: 0;
@@ -662,7 +666,7 @@ html {
     position: fixed;
     z-index: 100;
     top: 20%;
-    /* font-size: 2rem; */
+    font-size: 2rem;
     /* max-width: 80%; */
     background: #F3F5FC;
     border: 1px solid #000000;

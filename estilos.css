@@ -821,9 +821,9 @@ dialog#fail {
     .menu {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        /* justify-content: center; */
-        /* padding: 24px; */
+        align-items: center;
+        justify-content: center;
+        padding: 8px;
         gap: 10px;
         position: absolute;
         width: auto;
@@ -831,18 +831,19 @@ dialog#fail {
         left: 336px;
         /* top: 40px; */
         background: rgba(255, 255, 255, 0.24);
-        /* box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.04); */
+        box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.04);
         border-radius: 800px;
+        margin: 10px;
     }
 
     .lista-menu {
         display: flex;
         flex-direction: row;
         align-items: center;
-        padding: 16px;
+        padding: 8px;
         gap: 16px;
-        width: 105px;
-        height: 30px;
+        width: auto;
+        height: auto;
         /* White */
         background: #FFFFFF;
         border-radius: 800px;
@@ -855,8 +856,8 @@ dialog#fail {
     .menu-idioma {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        padding: 24px;
+        align-items: center;
+        padding: 8px;
         gap: 10px;
         position: absolute;
         width: auto;
@@ -864,18 +865,19 @@ dialog#fail {
         left: 525px;
         /* top: 0; */
         background: rgba(255, 255, 255, 0.24);
-        /*box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.04);*/
+        box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.04);
         border-radius: 800px;
+        margin: 10px;
     }
 
     .menu-idioma-lista {
         display: flex;
         flex-direction: row;
-        align-items: flex-start;
-        padding: 16px;
+        align-items: center;
+        padding: 8px;
         gap: 16px;
-        width: 105px;
-        height: 30px;
+        width: auto;
+        height: auto;
         /* White */
         background: #FFFFFF;
         border-radius: 800px;
@@ -1047,7 +1049,8 @@ dialog#fail {
         flex-direction: column;
         align-items: flex-start;
         /* justify-content: center; */
-        /* padding: 24px; */
+        padding: 8px;
+        margin: 10px;
         gap: 10px;
         position: absolute;
         width: auto;
@@ -1055,7 +1058,7 @@ dialog#fail {
         left: 0px;
         top: 65px;
         background: rgba(255, 255, 255, 0.24);
-        /* box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.04); */
+        box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.04);
         border-radius: 800px;
     }
 
@@ -1099,7 +1102,8 @@ dialog#fail {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        /* padding: 24px; */
+        padding: 8px;
+        margin: 10px;
         gap: 10px;
         position: absolute;
         width: auto;
@@ -1107,7 +1111,7 @@ dialog#fail {
         left: 215px;
         top: 65px;
         background: rgba(255, 255, 255, 0.24);
-        /*box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.04);*/
+        box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.04);
         border-radius: 800px;
     }
 

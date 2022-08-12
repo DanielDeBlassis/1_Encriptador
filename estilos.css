@@ -11,6 +11,36 @@ html {
     }
 }
 
+/*SCROLLBAR DE TODA LA PÁGINA*/
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #0A3871 #F3F5FC;
+  }
+  /*Chrome, Edge*/
+
+body::-webkit-scrollbar {  
+    width: 15px;
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #F3F5FC;
+    /*#5896E1;        color of the tracking area */
+    border-radius: 20px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #0A3871;
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: 1px solid #F3F5FC;
+    /* creates padding around scroll thumb */
+}
+
+/*-----------Fin Scrollbar--------------*/
 
 /*body*/
 .cuerpo {
